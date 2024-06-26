@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* Nave section */
+
+header{
+    background-image: url(../image/photo-1490730141103-6cac27aaab94.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #bf873e;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 48px;
+    right: 26px;
+}
+nav h4 span{
+    font-size: 16px;
+    font-weight: 700;
+}                                                               
+nav h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+nav ul{display: flex;text-decoration: none;list-style: none;}
+nav ul li{
+    margin: 0px  0px 0px  20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+/* banner section in heare */
+.banner{
+    padding: 150px 0 120px 0px;
+    text-align: center;
+    color:#a5f58a;
+}
+.banner h3{}
+.banner span{}
+.banner h1{
+    font-size: 47px;
+}
+.banner button{
+    background-color: #03A9F4;
+    padding: 10px  46px;
+    letter-spacing: 2px;
+    color: rgb(240, 161, 16);
+    border: 1px solid 1e75a9;
+    border: 1px solid #1e75a9;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: 800;
+    transition: all .4s linear;
+}
+.banner button:hover{
+    background-color: transparent;
+    letter-spacing: 3px;
+
+}
+
+ .banner span{
+    width: 156px;
+    /* color: rgb(200 211 204); */
+    display: inline-block;
+    height: 5px;
+    background-color: #ffed16;
+    border-radius: 15px;
+}
