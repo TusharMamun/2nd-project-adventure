@@ -1,18 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
-
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
 }
 .container{
     width: 90%;
     margin: auto;
 }
+section{
+    padding: 70px 0;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+span{
+
+}
 /* Nave section */
 
 header{
-    background-image: url(../image/photo-1490730141103-6cac27aaab94.jpg);
+    background-image: url(../image/hill.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,6 +52,11 @@ nav{
 nav h4 span{
     font-size: 16px;
     font-weight: 700;
+    height: 0px;
+  
+ 
+    height: 0px;
+
 }                                                               
 nav h4{
     color: white;
@@ -45,7 +72,7 @@ nav ul li a{
     text-transform: capitalize;
     color: white;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 29px;
 }
 /* banner section in heare */
 .banner{
@@ -53,13 +80,11 @@ nav ul li a{
     text-align: center;
     color:#a5f58a;
 }
-.banner h3{}
-.banner span{}
-.banner h1{
-    font-size: 47px;
-}
+
+
+
 .banner button{
-    background-color: #03A9F4;
+    background-color: #ff0303;
     padding: 10px  46px;
     letter-spacing: 2px;
     color: rgb(240, 161, 16);
@@ -76,7 +101,86 @@ nav ul li a{
 
 }
 
- .banner span{
+ span{
+    width: 156px;
+ 
+    display: inline-block;
+    height: 5px;
+    background-color: #ffed16;
+    border-radius: 15px;
+}
+/* up comming Event */
+.event-main{
+    text-align: center;
+}
+.event-main h2{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0;
+}
+ span{
+    width: 156px;
+   
+    display: inline-block;
+    height: 5px;
+    background-color: #ffed16;
+    border-radius: 15px;
+    margin: 10px 0px 36px 0px;
+}
+.event-box-main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+.event-box{
+    width: 50%;
+    margin: 15px;
+    
+}
+.event-box img{
+height: 350px;
+object-fit: cover;
+border-radius: 20px;
+box-shadow: 10px 10px 2px #8080807d;
+transition: all .5s linear;
+}
+
+.event-box h4{font-size: 20px;margin: 18px 0 30px;}
+
+.event-box a{
+    color: #cd3f1d;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 30px;
+    transition: all .22 linear;
+}
+.event-box a:hover{
+    color: #8acd1d;text-decoration: none;letter-spacing: 2px;font-size: 20px;
+}
+/* 
+explor the world */
+.expleor-parent{
+    background-image: url(../image/children\ with\ her\ father.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #49719e;
+    background-attachment: fixed;
+}
+.explor-main{padding: 80px 0;display: flex;}
+.explor-box{
+    width: 50%;
+}
+.explor-box h{
+    margin-top: 0;
+    
+
+}
+
+.explor-box span{
     width: 156px;
     /* color: rgb(200 211 204); */
     display: inline-block;
@@ -84,3 +188,110 @@ nav ul li a{
     background-color: #ffed16;
     border-radius: 15px;
 }
+
+
+.explor-box p{
+    font-size: 25px;
+}
+.explor-box a{
+    color: #cd3f1d;text-decoration: none;
+    letter-spacing: 2px;font-size: 22px;
+     transition: all .22 linear;
+}
+.explor-box a:hover{
+    color: #8acd1d;text-decoration: none;letter-spacing: 2px;font-size: 20px;
+}
+/* Toure gellary section */
+.tours-main{
+    display: flex;
+    
+}
+.toure-main .cox-bazar{
+    height: 370px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.tours-main h3{
+    margin: 0;padding: 0px 0px 11px 0px;
+font-size: 35px;
+font-weight: 900;
+}
+.toure-box{
+    padding: 15px;
+}
+.tours-main p{
+    text-align: justify;
+    font-size: 27px;
+    margin: 0 0 36px 0;
+}
+.tours-main a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.toure-box .small{height: 430px;object-fit: cover;margin: 0 0 25px 0;}
+
+.toure-box .large{
+  
+height: 470px;
+  
+object-fit: cover;
+  
+margin: 0 0 25px 0px;
+}
+/* footer section */
+
+.footer{
+    color: #597269;
+    padding: 31px 0px 13px 0px;
+    background-color: rgb(164 149 199);
+    text-align: center;
+    }
+    .footer-section{
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 0px 120px 0px;
+    }
+      .footer-section li{
+    list-style: none;
+    
+      }
+      .footer-section ul{
+        padding: 0;
+        margin: 0;
+      }
+      .footer-section ul a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #160e12;
+        
+      }
+      .footer-section h5{
+        color: #ceee1b;
+        font-size: 30px;
+      }
+      .footer p{
+        font-size: 18px;
+        color: blue;
+        letter-spacing: 1px;
+        margin: 145px 0px 64px 0px;
+}
+      /* fooder icon setup */
+      .footer .icon{
+        display: inline;
+      
+        color: white;
+        
+        margin: 72px 68px 101px 40px;
+      }
+      .footer .icon .fab{
+color: white;
+font-size: 65px;
+transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+      }
+      .footer .icon .fab:hover{
+        color: rgb(43, 27, 78);
+        font-size: 65px;
+        
+              }
+        
